@@ -52,8 +52,8 @@ print(a)
 print("a=3 + 8 / 4 - 2 * 4")
 a=3 + 8 / (4 - 2) * 4
 print(a)
-Ülessanne 3
-==, !=, <,>,<=,>=
+#Ülessanne 3
+#==, !=, <,>,<=,>=
 
 
 try:
@@ -70,19 +70,19 @@ try:
 except: 
     print("Sisesta ainult arvud!!!")
 
-Ülesanne 4
+#Ülesanne 4
 coin =float(25.75)
 planet =float(6378000000)
 planetC =2*pi*planet
 coins_to_planet =float(round(planetC/coin,2))
 print(f"Oleks vaja {coins_to_planet} münte.")
 
-Ülesanne 5
+#Ülesanne 5
 a = "kill-koll " .capitalize()
 b = "killadi-koll " .capitalize()
 
 print(2*a,b,2*a,b,4*a)
-Ülesanne 6
+#Ülesanne 6
 rong = """Rong see sõitis tsuhh tsuhh tsuhh,
 piilupart oli rongijuht.
 Rattad tegid rat tat taa,
@@ -95,24 +95,24 @@ piilupart oli rongijuht.
 Rattad tegid kill koll koll,
 kill koll koll ja kill koll kill.""".upper()
 print(rong)
-Ülesanne 7 
+#Ülesanne 7 
 a = int(input("Sisenda ristküüliku lähiskülg 1. :"))
 b = int(input("Sisenda ristküüliku lähiskülg 2. :"))
 S = a*b 
 P = 2*(a+b)
 print(f"Ristküliku pindala on: {S} \n Ristküüliku ümbermõõt on: {P}")
-Ülesanne 8
+#Ülesanne 8
 kütus = int(input("Sisesta tangitud kütuse kogus liitris:"))
 läbitud = int(input("Sisesta läbitud kilomeetrid:"))
 kulu = läbitud/kütus
 kulu100 = kulu*100
 print(kulu100)
-Ülesanne 9
+#Ülesanne 9
 kiirus =float(29.9)
 kaugus =int(input("Palju minutid sõidab:"))
 k=kiirus/kaugus
 print(k)
-Ülesanne 10
+#Ülesanne 10
 minutid_kasutajalt=int(input("aeg minutides:"))
 tunnid=minutid_kasutajalt//60
 minutid=minutid_kasutajalt%60
